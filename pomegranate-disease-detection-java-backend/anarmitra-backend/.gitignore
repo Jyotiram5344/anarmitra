@@ -1,0 +1,36 @@
+# Environment files
+.env
+
+# Maven build artifacts
+target/
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Eclipse IDE
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Log files
+*.log
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
