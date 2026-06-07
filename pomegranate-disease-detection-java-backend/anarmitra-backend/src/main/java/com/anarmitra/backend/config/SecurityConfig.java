@@ -37,6 +37,7 @@ public class SecurityConfig {
 
                 // Public APIs
                 .requestMatchers(
+                    "/",
                     "/api/auth/**",
                     "/api/public/**"
                 ).permitAll()
